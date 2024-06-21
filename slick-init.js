@@ -26,7 +26,7 @@ $(document).ready(function(){
     });
 
     // Carrusel para Testimonios
-    $('.testimonial-list.slider').slick({
+    $('.opiniones-list.slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: false,

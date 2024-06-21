@@ -44,11 +44,9 @@ header nav ul li a {
 
 .hero {
     background: url('img/banner.jpg') no-repeat center center/cover;
- 
     padding: 100px 0;
     text-align: center;
 }
-
 .hero .cta-btn {
     background-color: #00b300;
     color: #fff;
@@ -61,24 +59,24 @@ header nav ul li a {
     margin-right: 50px;
 }
 
-.services, .testimonials, .about, .contact {
+.services, .opiniones, .about, .contact {
     padding: 50px 0;
     background-color: #fff;
 }
 
-.services h2, .testimonials h2, .about h2, .contact h2 {
+.services h2, .opiniones h2, .about h2, .contact h2 {
     text-align: center;
     color: #004080;
     margin-bottom: 20px;
 }
 
-.service-list, .testimonial-list {
+.service-list, .opiniones-list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.service-item, .testimonial-item {
+.service-item, .opiniones-item {
     width: 30%;
     background-color: #f4f4f4;
     padding: 20px;
