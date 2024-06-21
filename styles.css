@@ -82,7 +82,9 @@ header nav ul li a {
     width: 30%;
     background-color: #f4f4f4;
     padding: 20px;
-    margin: 10px ;
+    margin: 30px ;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: center;
     border-radius: 10px;
 }

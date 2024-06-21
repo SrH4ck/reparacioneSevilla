@@ -1,6 +1,7 @@
 $(document).ready(function(){
-    $('.slider').slick({
-        slidesToShow: 2, // Mostrar 3 slides a la vez
+    // Carrusel para Servicios
+    $('.service-list.slider').slick({
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -8,22 +9,31 @@ $(document).ready(function(){
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2 // En pantallas más pequeñas, mostrar 2 slides a la vez
+                    slidesToShow: 2
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1 // En pantallas aún más pequeñas, mostrar 1 slide a la vez
+                    slidesToShow: 1
                 }
             }
         ],
-        // Añadir margen entre los slides
-        centerMode: false, // Desactivar el modo centro si está activado
-        centerPadding: '0px', // Eliminar cualquier relleno central
-        infinite: true, // Habilitar el desplazamiento infinito
-        dots: true, // Mostrar los puntos de navegación
-        arrows: true, // Mostrar las flechas de navegación
+        dots: true,
+        arrows: true,
+        prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+        nextArrow: '<button type="button" class="slick-next">Next</button>'
+    });
+
+    // Carrusel para Testimonios
+    $('.testimonial-list.slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: false,
+        centerPadding: '0px',
+        infinite: true,
+        dots: true,
+        arrows: true,
         prevArrow: '<button type="button" class="slick-prev">Previous</button>',
         nextArrow: '<button type="button" class="slick-next">Next</button>'
     });
