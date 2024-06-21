@@ -1,0 +1,130 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    
+}
+
+header {
+    background-color: #004080;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #050505;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('img/banner.jpg') no-repeat center center/cover;
+ 
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .cta-btn {
+    background-color: #00b300;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.container p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.services, .testimonials, .about, .contact {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.services h2, .testimonials h2, .about h2, .contact h2 {
+    text-align: center;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.service-list, .testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item, .testimonial-item {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.service-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label, .contact form input, .contact form textarea, .contact form button {
+    margin-bottom: 10px;
+}
+textarea{
+    resize: none;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px;
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact .container{
+    margin: 0 50px 0 50px ;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}

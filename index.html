@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReparacioneSevilla - Reparación de Dispositivos Electrónicos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ReparacioneSevilla</h1>
+            <nav>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Reparación Profesional de Dispositivos Electrónicos</h2>
+            <p>Ordenadores, Móviles, Consolas y más</p>
+            <a href="#contacto" class="cta-btn">Solicita una Reparación</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Reparación de Ordenadores</h3>
+                    <p>Desde problemas de hardware hasta software, reparamos tu ordenador con rapidez y eficacia.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Reparación de Móviles</h3>
+                    <p>Pantallas rotas, baterías defectuosas y más. Deja tu móvil en manos expertas.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Reparación de Consolas</h3>
+                    <p>PlayStation, Xbox, y otras consolas de videojuegos. Arreglamos cualquier problema.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Otros Dispositivos</h3>
+                    <p>Tablets, cámaras y otros dispositivos electrónicos también son bienvenidos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>En TechRepair, somos un equipo de profesionales con años de experiencia en la reparación de todo tipo de dispositivos electrónicos. Nuestro objetivo es ofrecer un servicio rápido, confiable y asequible para que puedas volver a disfrutar de tus dispositivos sin preocupaciones.</p>
+        </div>
+    </section>
+
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <h2>Testimonios</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <p>"Excelente servicio. Mi ordenador quedó como nuevo en menos de 24 horas." - Juan Pérez</p>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Repararon la pantalla de mi móvil en tiempo récord. Muy recomendado." - María Gómez</p>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Mi consola estaba dando problemas y la arreglaron rápidamente. Genial servicio." - Carlos López</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="submit_form.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TechRepair. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
