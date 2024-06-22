@@ -65,7 +65,7 @@ header nav ul li a {
     z-index: 2;
     text-align: center;
     color: white;
-    padding-top: 40vh; /* Ajusta según sea necesario */
+    padding-top: 30vh; /* Ajusta según sea necesario */
 }
 .container p{
     margin-left: 50px;
